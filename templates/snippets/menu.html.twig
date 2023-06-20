@@ -1,15 +1,21 @@
 {% block mainmenu %}
 <div id="navigation" class="border_bottom container">
+{% block homelink %}
   <div class="u-pull-left">
-  <a href="#">Home</a>
+    <a href="#">Home</a>
   </div>
-  <ul class="u-pull-right">
-  <li>
-  <a href="#">blog</a></li><li>
-  <a href="#">impressum</a>
-  </li>
-  
+{% endblock%}
+
+{% block navigationitems %}
+  <ul class="u-pull-right flexed noliststyle">
+    <li class="menuitem">
+      <a href="#">blog</a>
+    </li>
+    <li class="menuitem">
+      <a href="#">impressum</a>
+    </li>
   </ul>
+  {% endblock %}
 </div>
-        
+
 {% endblock %}
