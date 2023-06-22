@@ -1,11 +1,18 @@
+
+
 .border_bottom {
-    border-bottom:1px solid #808080;
-    
+  border-bottom: 1px solid #808080;
 }
 .flexed {
-    display: flex;
-    gap:1em;
+  display: flex;
+  gap: 1em;
 }
 .noliststyle {
-    list-style: none;
+  list-style: none;
+}
+.posting img {
+  max-width: 100%;
+}
+.pt-1 {
+    padding-top:1em;
 }
